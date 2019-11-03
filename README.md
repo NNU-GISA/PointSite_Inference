@@ -21,5 +21,8 @@ python inference.py
 --select_list: TXT file for selected protein name, default None
 --num_vote: voting number in inference (default 25, larger number can archieve more stable and high performance)
 ```
+## Visualization
+You will get .obj file in output folder, please use MeshLab to visualize.
+
 ## Reference
 [facebookresearch/SparseConvNet](https://github.com/facebookresearch/SparseConvNet/tree/master/)
