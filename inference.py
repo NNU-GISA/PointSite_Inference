@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = BASE_DIR
 CLASS_LABELS = ['0', '1']
-model_path = '/data/yxu/Github/scPDB/pointsite/clean_data/model_80_scale/'
+model_path = 'model'
 
 aa_list = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V', 'X']
 atom_list = ['N', 'C', 'O', 'S', 'H', 'X']
