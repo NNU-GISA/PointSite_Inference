@@ -23,6 +23,7 @@ python inference.py
 ```
 ## Visualization
 You will get .obj file in output folder, please use MeshLab to visualize.
+![predict](pic/result.png)
 
 ## Reference
 [facebookresearch/SparseConvNet](https://github.com/facebookresearch/SparseConvNet/tree/master/)
