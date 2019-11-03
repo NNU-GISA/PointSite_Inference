@@ -12,4 +12,12 @@ git clone https://github.com/PointSite/PointSite_Inference.git
 cd PointSite_Inference/
 bash develop.sh
 ```
- 
+ ## Inference
+ ```
+python inference.py 
+--gpu: GPU index, if you have not GPU, just ignore it
+--output: output root
+--data: data root, only support .xyz file
+--select_list: TXT file for selected protein name, default None
+--num_vote: voting number 
+```
