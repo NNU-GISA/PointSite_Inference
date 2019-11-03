@@ -12,12 +12,14 @@ git clone https://github.com/PointSite/PointSite_Inference.git
 cd PointSite_Inference/
 bash develop.sh
 ```
- ## Inference
+## Inference
  ```
 python inference.py 
 --gpu: GPU index, if you have not GPU, just ignore it
---output: output root
---data: data root, only support .xyz file
+--output: output root (required)
+--data: data root, only support .xyz file (required)
 --select_list: TXT file for selected protein name, default None
---num_vote: voting number 
+--num_vote: voting number in inference (default 25, larger number can archieve more stable and high performance)
 ```
+## Reference
+[facebookresearch/SparseConvNet](https://github.com/facebookresearch/SparseConvNet/tree/master/)
