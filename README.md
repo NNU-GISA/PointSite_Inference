@@ -22,7 +22,7 @@ python inference.py
 --num_vote: voting number in inference (default 25, larger number can archieve more stable and high performance)
 ```
 ## Visualization
-You will get .obj file in output folder, please use MeshLab to visualize.
+You will get .obj file in output folder, please use [MeshLab](http://www.meshlab.net/) to visualize.
 ![predict](pic/result.png)
 
 ## Reference
